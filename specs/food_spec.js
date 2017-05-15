@@ -3,7 +3,7 @@ var Food = require('../food.js')
 
 describe('Food', function() {
 
-  food = new Food({ name: "Carrot cake", replenishmentValue: 50 });
+  var food = new Food({ name: "Carrot cake", replenishmentValue: 50 });
 
   it('has a name and replenishment value', function() {
     assert.deepEqual("Carrot cake", food.name);
